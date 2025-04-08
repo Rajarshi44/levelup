@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Solo Leveling System",
+    "slug": "solo-leveling-system",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#121212"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.sololeveling.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#121212"
+      },
+      "package": "com.sololeveling.app"
+    },
+    "web": {
+      "favicon": "./assets/images/favicon.png"
+    },
+    "description": "A personal development system for physical training, coding skills, and discipline building",
+    "notification": {
+      "icon": "./assets/images/notification-icon.png",
+      "color": "#121212"
+    },
+    "plugins": ["expo-notifications", "expo-file-system"]
+  }
+}
